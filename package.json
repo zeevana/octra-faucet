@@ -1,11 +1,11 @@
 {
   "name": "octra-faucet",
   "version": "1.0.0",
+  "type": "module",
   "dependencies": {
+    "buffer": "^6.0.3",
     "ethers": "^6.9.0"
   },
-  "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
