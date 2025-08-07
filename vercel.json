@@ -4,6 +4,7 @@
     { "src": "api/request-tokens.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/request-tokens", "dest": "/api/request-tokens.js" }
+    { "src": "/request-tokens", "dest": "/api/request-tokens.js" },
+    { "src": "/(.*)", "dest": "/public/index.html" }
   ]
 }
